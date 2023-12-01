@@ -1,5 +1,5 @@
 
-This is a simple Chrome extension app called Linktracker
+This is a simple Chrome extension app called Linktracker, user are able to save their favorite links and delete the links in this extension.
 
 Highlight Features and technical skills applied: 
 
