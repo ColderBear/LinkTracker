@@ -1,21 +1,28 @@
-# coc8640b4ab7ea074c56f6bdc
 
-Quick start:
+This is a simple Chrome extension app called Linktracker
 
-```
-$ npm install
-$ npm start
-````
+Highlight Features and technical skills applied: 
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+JavaScript Logic:
+- Use of the Chrome extension API to interact with browser tabs (chrome.tabs.query).
+- Event handling for button clicks (addEventListener).
+- Local storage manipulation for persisting data (localStorage.setItem, localStorage.getItem, localStorage.clear).
+- Dynamic rendering of data in the popup (render function).
+- Array manipulation for storing and managing leads (myLeads array).
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+Chrome Extension Manifest:
+- Appropriate use of the manifest file to define extension properties (manifest_version, version, name, action, permissions).
 
-Happy Coding!
+Version Control (Package.json):
+- Use of Vite for project development and build processes.
+- NPM scripts (start, dev, build, preview) for development tasks.
+
+Collaboration with Chrome Tabs:
+- Interaction with the current active tab to extract and save the URL.
+
+User Interaction:
+- Ability to save input manually or from the currently active tab.
+
+
+
